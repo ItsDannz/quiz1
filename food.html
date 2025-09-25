@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style-switcher.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>I'm</span> Danu</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html"><i class="fa fa-home"></i>Homepage</a></li>
+        <li><a href="profile.html"><i class="fa fa-user"></i>Profile</a></li>
+        <li><a href="hometown.html"><i class="fa fa-city"></i>Hometown</a></li>
+        <li><a href="food.html" class="active"><i class="fa fa-hamburger"></i>Local Food</a></li>
+        <li><a href="tourist.html"><i class="fa fa-plane"></i>Tourist Places</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <!-- home -->
+      <section class="home section">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Local Food</h2>
+            </div>
+          </div>
+
+          <div class="food-item row">
+            <div class="home-img padd-15">
+              <img src="image/gudeg.png" alt="">
+            </div>
+            <div class="home-info padd-15">
+              <h3 class="hello"><span class="name">Gudeg</span></h3>
+              <p>
+                Gudeg is an invitation to enjoy the true flavors of Indonesia, 
+                bringing nostalgia and delight in every portion. Ideal for a special lunch or dinner. 
+              </p>
+            </div>
+          </div>
+
+          <div class="food-item row">
+            <div class="home-img padd-15">
+              <img src="image/soto.png" alt="">
+            </div>
+            <div class="home-info padd-15">
+              <h3 class="hello"><span class="name">Kemiri Soto</span></h3>
+              <p>
+                Kemiri Soto, This is not an ordinary soto, this is a legendary dish that combines 
+                the uniqueness of candlenut spices with a wealth of herbs, creating a flavor harmony that you will not forget. 
+              </p>
+            </div>
+          </div>
+
+          <div class="food-item row">
+            <div class="home-img padd-15">
+              <img src="image/tape.png" alt="">
+            </div>
+            <div class="home-info padd-15">
+              <h3 class="hello"><span class="name">Gembong Tape</span></h3>
+              <p>
+                Gembong Tape, a piece of story and warmth from Pati. Perfect as a special souvenir 
+                for family and friends, or as a companion for your tea/coffee every day. 
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+    <div class="style-switcher">
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+      </div>
+  </div>
+  <script src="style-switcher.js"></script>
+</body>
+</html>
